@@ -25,14 +25,14 @@ export const Player: React.FC<Props> = ({
         {`
             .paused { 
               animation-play-state: paused !important;
-              background: #e1e4e8 !important;
+              background: #C0C !important;
             }
 
             img:not([src]) {
               content: url("data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==");
               border-radius: 6px;
               background: #FFF;
-              border: 1px solid #e1e4e8;
+              border: 1px solid #C0C;
             }
 
             p {
@@ -45,7 +45,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 4px;
               margin: -1px;
-              border: 1px solid #e1e4e8;
+              border: 1px solid #C0C;
               border-radius: 4px;
               overflow: hidden;
               padding: 2px;
@@ -59,7 +59,7 @@ export const Player: React.FC<Props> = ({
               width: 100%;
               height: 6px;
               transform-origin: left center;
-              background-color: #24292e;
+              background-color: #C0C;
               animation: progress ${duration}ms linear;
               animation-delay: -${progress}ms;
             }
