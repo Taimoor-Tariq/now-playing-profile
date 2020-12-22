@@ -26,12 +26,12 @@
     "url": "git+https://github.com/JoshLmao/now-playing-profile.git"
   },
   "keywords": [],
-  "author": "Nate Moore",
-  "license": "ISC",
+  "author": "Taimoor Tariq",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/JoshLmao/now-playing-profile/issues"
+    "url": "https://github.com/Taimoor-Tariq/now-playing-profile/issues"
   },
-  "homepage": "https://github.com/JoshLmao/now-playing-profile#readme",
+  "homepage": "https://github.com/Taimoor-Tariq/now-playing-profile#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
